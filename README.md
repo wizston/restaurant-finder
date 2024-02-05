@@ -38,6 +38,17 @@ $ npm run test:cov
 
 # Restaurants Finder API Documentation
 
+## TODOs
+
+Due to time constraints, here are some of the other optimizations and features I would have been able to implement. I would love to discuss further on this and my approach to each remaining items listed below. 
+
+- Add other filters for already added parameters like cuisineType, priceRange, ratings
+- Complete rest of unit tests to cover actual units of the project.
+- Implement caching for static unchanged data and clear on new inserts
+- Validate a few more endpoint data like the delete id parameter
+- Add swagger documentation
+- Implement Auth and logging system to track changes to database
+
 ## Overview
 
 This API allows users to find restaurants within a specified distance from their current location in a given city. Users can also add, update, or delete restaurant information.
