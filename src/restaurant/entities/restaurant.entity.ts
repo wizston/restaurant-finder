@@ -1,5 +1,12 @@
 import { Exclude } from 'class-transformer';
-import { Entity, Column, PrimaryGeneratedColumn, Point, BeforeInsert, BeforeUpdate } from 'typeorm';
+import {
+  Entity,
+  Column,
+  PrimaryGeneratedColumn,
+  Point,
+  BeforeInsert,
+  BeforeUpdate,
+} from 'typeorm';
 
 @Entity('Restaurants')
 export class Restaurant {
